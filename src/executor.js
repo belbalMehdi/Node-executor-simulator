@@ -14,7 +14,7 @@ class Executor {
         if(!this._started) this.start();
     }
 
-    async start() {
+    start() {
         this._started = true;
         for(let i=0; i<this.size; i++){
             this.runTask();
